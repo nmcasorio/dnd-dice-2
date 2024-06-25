@@ -22,8 +22,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "clk" # clock signal
+  ui[1]: "rst_n" # Reset
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -32,11 +32,11 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "random_number[0]"
+  uo[1]: "random_number[1]"
+  uo[2]: "random_number[2]"
+  uo[3]: "random_number[3]"
+  uo[4]: "random_number[4]"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
