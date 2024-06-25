@@ -1,4 +1,4 @@
-mmodule lfsr (
+module lfsr (
     input wire clk,
     input wire reset,
     output reg [4:0] random_number // 5-bit output for the random number (1 to 20)
