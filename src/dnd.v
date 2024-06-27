@@ -1,4 +1,4 @@
-module lfsr(
+module tt_um_lfsr(
     input clk,
     input reset,
     input [2:0] mod,
